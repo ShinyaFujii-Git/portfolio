@@ -12,19 +12,11 @@
 
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
-        <a class="navbar-brand" href="#">ポートフォリオ</a>
+        <a class="navbar-brand" href="#">Shinya Fujii のポートフォリオ</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#about">自己紹介</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills">スキルセット</a></li>
-                <li class="nav-item"><a class="nav-link" href="#products">プロダクト</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">連絡先</a></li>
-            </ul>
-        </div>
     </nav>
 
     <div id="fullpage">
@@ -35,7 +27,7 @@
                         <h2 class="display-4 mb-4">自己紹介</h2>
                         <p class="lead">
                             バックエンドエンジニアを目指している藤井慎也です。<br>
-                            未経験からWEBエンジニア業界への転職を希望しています。
+                            未経験からWEBエンジニア業界への転職を目指しています。
                         </p>
                     </section>
                 </div>
@@ -84,24 +76,26 @@
                 <div class="container">
                     <section class="bg-white p-4 rounded">
                         <h2 class="mb-2">プロダクト</h2>
-                        <div class="card border-primary">
+                        <div class="card border-primary mb-3">
                             <div class="card-body">
                                 <h4 class="card-title text-primary">工数入出力ソフト</h5>
                                     <div class="row">
                                         <div>
-                                            <img class="col-10" src="./images/intro3.png" alt="">
+                                            <img class="col-10 mb-3" src="./images/intro3.png" alt="">
                                         </div>
                                     </div>
-                                    <p class="card-text text-secondary">
+                                    <p class="card-text text-dark">
                                         工数の入力とcsv形式での出力をするためのソフトウェアです。<br>
                                         詳細については概要解説記事リンクをご覧ください。
                                     </p>
-                                    <a href="https://sheltered-peak-06096-0ca2b6b41962.herokuapp.com/"
-                                        class="btn btn-primary mr-4">ページリンク</a>
-                                    <a href="https://github.com/ShinyaFujii-Git/Man-hour_Input.git"
-                                        class="btn btn-outline-primary mr-4">GitHub</a>
-                                    <a href="#" class="btn btn-success mr-4">概要解説記事</a>
                             </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <a href="https://sheltered-peak-06096-0ca2b6b41962.herokuapp.com/"
+                                class="btn btn-primary mr-4 col-2">ページリンク</a>
+                            <a href="https://github.com/ShinyaFujii-Git/Man-hour_Input.git"
+                                class="btn btn-outline-primary mr-4 col-2">GitHub</a>
+                            <a href="#" class="btn btn-success mr-4 col-2">概要解説記事</a>
                         </div>
                     </section>
                 </div>
@@ -111,9 +105,23 @@
         <div class="section" id="thoughts">
             <div class="slide">
                 <div class="container">
-                    <section>
-                        <h1>test</h1>
-                        <p>test</p>
+                    <section class="my-thoughts-section bg-white p-6 rounded-lg shadow-md">
+                        <div class="container mx-auto">
+                            <h2 class="text-xl font-semibold text-gray-800 mb-4 title">私のエンジニア職への想い</h2>
+                            <div class="my-thoughts text-gray-700 leading-relaxed">
+                                <p>私がなぜ未経験のエンジニアへの転職を行おうと思っているのか、その想いを簡単に綴らせて頂こうと思います。</p>
+                                <p class="mt-4">私は現在モノづくりの現場で工程リーダーを行っており、私がエンジニア職に興味を持つようになったのはExcelがきっかけとなります。</p>
+                                <p class="mt-4">リーダーとして行う完成数の管理や在庫の管理、工数の計算などの業務を自動化していく過程で、関数でロジックを組む面白さに夢中になりました。</p>
+                                <p class="mt-4">マクロも少しだけ触っていましたが、記法に癖があり複雑な機能は中々作れないでいました。</p>
+                                <p class="mt-4">
+                                    しかしその後、AIのお陰でこれまで組めなかったような複雑な動きも組めるようになり、一気にプログラミングの面白さに魅了され転職をしようと決意しました。</p>
+                                <p class="mt-4">その後は基本情報技術者資格を取得し、Udemyの講座でWEBアプリを作成する方法を学び、今に至ります。</p>
+                                <p class="mt-4">
+                                    WEB業界を選んだ理由として、日頃触れているインターネットという媒体で様々なサービスを提供できる事に面白さを感じており、今後も発展していくエンジニアという業界にWEBを通して関われる事に大きな魅力を感じております。
+                                </p>
+                                <p class="mt-4">そして、今後も発展を続ける情報業界に所属し、その一端として私の能力を奮う事を今後の人生の目標としたいと思っております。</p>
+                            </div>
+                        </div>
                     </section>
                 </div>
             </div>
@@ -121,12 +129,15 @@
 
         <div class="section" id="contact">
             <div class="slide">
-                <div class="container">
+                <div class="container text-center">
                     <section class="bg-light p-4 rounded">
                         <div class="mb-4">
                             <h2>連絡先</h2>
                         </div>
-                        <h4>Email: shinya.fujii.forwork@gmail.com</h4>
+                        <div class="email-container">
+                            <h4>Email: <span id="email-address">shinya.fujii.forwork@gmail.com</span></h4>
+                            <button id="copy-email" class="btn btn-success ml-2">コピー</button>
+                        </div>
                     </section>
                 </div>
             </div>
@@ -143,7 +154,28 @@
                 scrollOverflow: true,
                 navigation: true,
                 navigationPosition: 'right',
-                sectionsColor: ['#d1ecf1', '#d1ecf1', '#ffffff','#d1ecf1', '#d1ecf1']
+                sectionsColor: ['#d1ecf1', '#d1ecf1', '#ffffff', '#d1ecf1', '#d1ecf1']
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const copyEmailButton = document.getElementById('copy-email');
+            const emailAddressSpan = document.getElementById('email-address');
+
+            copyEmailButton.addEventListener('click', function () {
+                const emailText = emailAddressSpan.textContent;
+
+                // Clipboard API を使用してコピー
+                navigator.clipboard.writeText(emailText)
+                    .then(() => {
+                        alert('メールアドレスをコピーしました！'); // コピー成功を通知
+                    })
+                    .catch(err => {
+                        console.error('メールアドレスのコピーに失敗しました: ', err);
+                        alert('メールアドレスのコピーに失敗しました。');
+                    });
             });
         });
     </script>

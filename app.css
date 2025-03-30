@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -7,7 +8,63 @@ html, body {
 .section {
     text-align: center;
 }
-    
+
+.my-thoughts-section {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+}
+
+.my-thoughts-section p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.my-thoughts-section p:last-child {
+    margin-bottom: 0;
+}
+
 .container {
-    width: 60%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.email-container {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.btn-success {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.copy-button:hover {
+    background-color: #0056b3; /* ホバー時の色 */
+}
+
+.copy-button:focus {
+    outline: none; /* フォーカス時のアウトラインを削除 */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); /* フォーカス時の影 */
 }

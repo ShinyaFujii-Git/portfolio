@@ -32,8 +32,11 @@
             <div class="slide">
                 <div class="container">
                     <section class="jumbotron bg-info text-white">
-                        <h2 class="display-4">自己紹介</h2>
-                        <p class="lead">バックエンドエンジニアを目指している藤井慎也です。<br> 未経験からWEBエンジニア業界への転職を希望しています。</p>
+                        <h2 class="display-4 mb-4">自己紹介</h2>
+                        <p class="lead">
+                            バックエンドエンジニアを目指している藤井慎也です。<br>
+                            未経験からWEBエンジニア業界への転職を希望しています。
+                        </p>
                     </section>
                 </div>
             </div>
@@ -43,10 +46,12 @@
             <div class="slide">
                 <div class="container">
                     <section class="bg-light p-4 rounded">
-                        <h2>スキルセット</h2>
+                        <div class="mb-4">
+                            <h2 class="mb-5">スキルセット</h2>
+                        </div>
                         <div class="row">
                             <div class="col-md-4 col-sm-6">
-                                <h4>フロントエンド</h4>
+                                <h4 class="border-bottom border-secondary mb-3 pb-2">フロントエンド</h4>
                                 <ul class="list-unstyled">
                                     <li><i class="fab fa-html5 text-info"></i> HTML</li>
                                     <li><i class="fab fa-css3-alt text-info"></i> CSS</li>
@@ -55,14 +60,14 @@
                                 </ul>
                             </div>
                             <div class="col-md-4 col-sm-6">
-                                <h4>バックエンド</h4>
+                                <h4 class="border-bottom border-secondary mb-3 pb-2">バックエンド</h4>
                                 <ul class="list-unstyled">
                                     <li><i class="fab fa-node-js text-info"></i> Node.js</li>
                                     <li><i class="fas fa-server text-info"></i> express</li>
                                 </ul>
                             </div>
                             <div class="col-md-4 col-sm-12">
-                                <h4>データベース</h4>
+                                <h4 class="border-bottom border-secondary mb-3 pb-2">データベース</h4>
                                 <ul class="list-unstyled">
                                     <li><i class="fas fa-database text-info"></i> MongoDB</li>
                                 </ul>
@@ -78,18 +83,35 @@
             <div class="slide">
                 <div class="container">
                     <section class="bg-white p-4 rounded">
-                        <h2>プロダクト</h2>
+                        <h2 class="mb-2">プロダクト</h2>
                         <div class="card border-primary">
                             <div class="card-body">
-                                <h5 class="card-title text-primary">工数入出力ソフト</h5>
-                                <p class="card-text text-secondary">工数を入力・管理するためのソフトウェアです。</p>
-                                <a href="#" class="btn btn-primary">ページリンク</a>
-                                <a href="https://github.com/ShinyaFujii-Git/Man-hour_Input.git"
-                                    class="btn btn-outline-primary">GitHub</a>
-                                <a href="#" class="btn btn-success">概要解説記事</a>
+                                <h4 class="card-title text-primary">工数入出力ソフト</h5>
+                                    <div class="row">
+                                        <div>
+                                            <img class="col-10" src="../images/intro3.png" alt="">
+                                        </div>
+                                    </div>
+                                    <p class="card-text text-secondary">
+                                        工数の入力とcsv形式での出力をするためのソフトウェアです。<br>
+                                        詳細については概要解説記事リンクをご覧ください。
+                                    </p>
+                                    <a href="https://sheltered-peak-06096-0ca2b6b41962.herokuapp.com/"
+                                        class="btn btn-primary mr-4">ページリンク</a>
+                                    <a href="https://github.com/ShinyaFujii-Git/Man-hour_Input.git"
+                                        class="btn btn-outline-primary mr-4">GitHub</a>
+                                    <a href="#" class="btn btn-success mr-4">概要解説記事</a>
                             </div>
                         </div>
                     </section>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="thoughts">
+            <div class="slide">
+                <div class="container">
+                    <section class=""></section>
                 </div>
             </div>
         </div>
@@ -98,11 +120,10 @@
             <div class="slide">
                 <div class="container">
                     <section class="bg-light p-4 rounded">
-                        <h2>連絡先</h2>
-                        <ul class="list-unstyled">
-                            <li><i class="fas fa-envelope text-info"></i> Email: shinya.fujii.forwork@gmail.com</li>
-                            <li><i class="fab fa-linkedin text-info"></i> LinkedIn: <a href="#">プロフィールリンク</a></li>
-                        </ul>
+                        <div class="mb-4">
+                            <h2>連絡先</h2>
+                        </div>
+                        <h4>Email: shinya.fujii.forwork@gmail.com</h4>
                     </section>
                 </div>
             </div>
@@ -119,7 +140,7 @@
                 scrollOverflow: true,
                 navigation: true,
                 navigationPosition: 'right',
-                sectionsColor: ['#d1ecf1', '#e6f7ff', '#ffffff', '#e6f7ff']
+                sectionsColor: ['#d1ecf1', '#d1ecf1', '#ffffff','#d1ecf1', '#d1ecf1']
             });
         });
     </script>
